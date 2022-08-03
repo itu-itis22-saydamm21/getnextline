@@ -95,10 +95,3 @@ char	*get_next_line(int fd)
 	ret = read_to_buff(fd, &s, &buff);
 	return (return_line(ret, &s));
 }
-/*#include <stdio.h>
-
-int	main()
-{
-	int fd = open("txt.txt", O_RDONLY);
-	printf("%s", get_next_line(fd));
-}*/
