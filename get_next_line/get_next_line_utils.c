@@ -6,11 +6,12 @@
 /*   By: msaydam <msaydam@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 11:57:20 by msaydam           #+#    #+#             */
-/*   Updated: 2022/08/03 16:33:14 by msaydam          ###   ########.fr       */
+/*   Updated: 2022/08/03 20:55:32 by msaydam          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
+
 char	*ft_strchr(const char *s, int c)
 {
 	while (*s != '\0' && *s != c)

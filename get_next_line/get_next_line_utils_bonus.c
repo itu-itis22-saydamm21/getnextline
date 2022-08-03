@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: msaydam <msaydam@student.42istanbul.com.t  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/08/03 20:55:59 by msaydam           #+#    #+#             */
+/*   Updated: 2022/08/03 20:56:07 by msaydam          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "get_next_line_bonus.h"
 
 char	*ft_strchr(const char *s, int c)
@@ -77,4 +89,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 		((char *)dst)[i] = '\0';
 	return (ft_strlen(src));
 }
-

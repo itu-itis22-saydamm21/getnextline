@@ -6,21 +6,19 @@
 /*   By: msaydam <msaydam@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 12:55:57 by msaydam           #+#    #+#             */
-/*   Updated: 2022/08/03 15:16:40 by msaydam          ###   ########.fr       */
+/*   Updated: 2022/08/03 21:02:44 by msaydam          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-# ifndef GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
 # ifndef BUFFER_SIZE
-# define BUFFER_SIZE 42
-#endif
+#  define BUFFER_SIZE 42
+# endif
 
 # include <stdlib.h>
 # include <fcntl.h>
 # include <unistd.h>
-
 
 char	*get_next_line(int fd);
 size_t	ft_strlen(const char *s);
@@ -30,6 +28,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strchr(const char *s, int c);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 
-# endif
-
-
+#endif
